@@ -15,6 +15,25 @@
 	.ac{width:100%;
 		height:50px;
 		background-color:black;
+		box-shadow: 10px 10px 5px #888888;
+}
+	.dmenu {
+	margin:0 auto;
+	display:block;
+	text-align:center;
+	}
+	.dmenu li{
+	display:inline-block;
+	width:150px;
+	background-color:black; 
+	line-height:50px;
+	font-size:30px;
+	color:white;	
+transition:all 0.3s;	
+	}
+	.dmenu li:hover{
+	transform:scale(1.1);
+	background-color:#2d2d2d; 
 	}
   </style>
 <link
@@ -27,8 +46,16 @@
 </head>
 <body style="background-color:silver;">
 <div  class="ac">
+  <ul class="dmenu">
+  <li>首页</li>
+  <li>个人</li>
+  <li>随笔</li>
+  <li>note</li>
+  <li>电影</li>
+  </ul>
   </div>
 	     </body>
 	     <script>
 </script>
 </html>
+
